@@ -1,4 +1,4 @@
-name: Deploy Pipeline
+name: Deploy Github Actions Pipeline for Rent Zone App
 
 on:
   push:
