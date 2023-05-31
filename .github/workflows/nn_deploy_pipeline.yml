@@ -14,7 +14,7 @@ jobs:
   # Configure AWS credentials 
   configure_aws_credentials:
     name: Configure AWS credentials
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1-node16
